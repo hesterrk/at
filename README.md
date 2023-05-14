@@ -1,4 +1,4 @@
-This is a [React.js] project created with [`vite.js`](https://vitejs.dev/guide/).
+This is a [`React.js`] project created with [`vite.js`](https://vitejs.dev/guide/).
 
 ## Getting Started
 
