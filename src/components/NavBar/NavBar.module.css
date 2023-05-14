@@ -1,0 +1,21 @@
+.navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.navigation ul li {
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .navigation ul li {
+    padding: 0.5rem;
+  }
+
+  .navigation ul {
+    justify-content: flex-start;
+  }
+}

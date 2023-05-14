@@ -1,0 +1,121 @@
+.headerNavContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 1px solid var(--primary-colour);
+  color: var(--primary-colour);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logoContainer span:nth-of-type(odd) {
+  height: 20px;
+}
+
+.logoContainer span:last-of-type {
+  margin-right: 1rem;
+}
+
+.logoContainer h1 {
+  color: #747474;
+  font-size: 14px;
+}
+
+.line {
+  border-left: 5px solid black;
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 0.25rem;
+}
+
+.homeContainer {
+  display: flex;
+}
+
+.mainContent {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 70%;
+  border-right: 1px solid var(--primary-colour);
+}
+
+.mainContent h3:first-of-type:first-letter {
+  font-size: 1.5rem;
+}
+
+.mainContent h2:first-of-type {
+  text-transform: uppercase;
+}
+
+.mainContent div:first-of-type {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mainContent span:first-of-type {
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.mainContent p:first-of-type {
+  margin-bottom: 3rem;
+  margin-top: 0;
+  overflow-wrap: break-word;
+}
+
+.mainContent p:last-of-type {
+  background: var(--secondary-colour);
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.recommendedArticles {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.recommendedArticles ul {
+  list-style-type: disc;
+  text-decoration: underline;
+  padding-left: 1rem;
+}
+
+.recommendedArticles li {
+  color: var(--primary-colour);
+}
+
+.recommendedArticles button {
+  border: 6px solid white;
+  border-radius: 15px;
+  outline: 2px solid var(--primary-colour);
+  outline-offset: -4px;
+  color: white;
+  box-shadow: 0 0px 10px var(--primary-colour);
+  font-weight: 700;
+  margin: 0 auto;
+  min-height: 40px;
+  background: linear-gradient(var(--primary-colour), white);
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    border-right: none;
+    width: 100%;
+  }
+
+  .mainContent div:first-of-type,
+  .homeContainer {
+    display: block;
+  }
+
+  .recommendedArticles {
+    margin-bottom: 4rem;
+  }
+}

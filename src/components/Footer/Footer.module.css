@@ -1,0 +1,8 @@
+.footer {
+  background: var(--secondary-colour);
+  border-top: 0.5px dashed var(--primary-colour);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+}
